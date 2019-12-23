@@ -67,8 +67,8 @@ hi      TabLineSel guifg=none    guibg=#2c4e6c gui=none
 " - File Navigation / Searching -
 " -------------------------------
 hi       Directory guifg=none    guibg=none    gui=underline
-hi          Search guifg=none    guibg=none    gui=standout
-hi       IncSearch guifg=none    guibg=none    gui=standout
+hi          Search guifg=#ffffff guibg=#437f7f gui=standout
+hi       IncSearch guifg=#ffffff guibg=#437f7f gui=standout
 
 " -----------------
 " - Prompt/Status -
@@ -100,13 +100,13 @@ hi      SpecialKey guifg=#abede0 guibg=none    gui=none
 " --------------------------------
 " Variable types
 " --------------------------------
-hi        Constant guifg=none    guibg=none    gui=none
-hi          String guifg=none    guibg=none    gui=none
-hi StringDelimiter guifg=#74a0c7 guibg=none    gui=none
-hi       Character guifg=none    guibg=none    gui=none
-hi          Number guifg=none    guibg=none    gui=none
-hi         Boolean guifg=none    guibg=none    gui=none
-hi           Float guifg=none    guibg=none    gui=none
+hi        Constant guifg=#e0abed guibg=none    gui=none
+hi          String guifg=#e0abed guibg=none    gui=none
+hi StringDelimiter guifg=#e0abed guibg=none    gui=none
+hi       Character guifg=#e0abed guibg=none    gui=none
+hi          Number guifg=#e0abed guibg=none    gui=none
+hi         Boolean guifg=#e0abed guibg=none    gui=none
+hi           Float guifg=#e0abed guibg=none    gui=none
 
 hi      Identifier guifg=none    guibg=none    gui=none
 hi        Function guifg=#abede0 guibg=none    gui=none
@@ -114,7 +114,7 @@ hi        Function guifg=#abede0 guibg=none    gui=none
 " --------------------------------
 " Language constructs
 " --------------------------------
-hi         Comment guifg=#74a0c7 guibg=none    gui=none
+hi         Comment guifg=#74a0c7 guibg=none    gui=italic
 
 hi       Statement guifg=#b8edab guibg=none    gui=none
 hi     Conditional guifg=#b8edab guibg=none    gui=none
